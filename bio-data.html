@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>My Bio Data</h1>
-    <form action="#" method="POST">
+    <form action="#" method="GET">
         <fieldset>
             <legend>Personal Information</legend>
             <label for="firstName">FirstName: </label>
@@ -31,7 +31,7 @@
             <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
             <br><br>
             <label for="contact">Phone </label>
-            <input type="number" name="contact" id="contact" placeholder="+91" required>
+            <input type="tel" name="contact" id="contact" placeholder="+91" maxlength="10" required>
             <br><br>
             <label for="height">Height </label>
             <input type="number" name="height" id="height" placeholder="Height in Feet" required>
