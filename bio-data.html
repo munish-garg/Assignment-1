@@ -13,9 +13,9 @@
         <fieldset>
             <legend>Personal Information</legend>
             <label for="firstName">FirstName: </label>
-            <input type="text" name="firstName" id="firstName" placeholder="First Name" required>
+            <input type="text" name="firstName" id="firstName" placeholder="First Name" class="input-field" required>
             <label for="lastName">LastName: </label>
-            <input type="text" name="lastName" id="lastName" placeholder="Last Name" required>
+            <input type="text" name="lastName" id="lastName" placeholder="Last Name" class="input-field" required>
             <br><br>
             <label for="male">Male: </label>
             <input type="radio" name="gender" id="male" required>
@@ -25,24 +25,24 @@
             <input type="radio" name="gender" id="others" required>
             <br><br>
             <label for="dob">Date of Birth: </label>
-            <input type="date" name="dob" id="dob" required>
+            <input type="date" name="dob" id="dob" class="input-field" required>
             <br><br>
             <label for="email">E-mail: </label>
-            <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email" class="input-field" required>
             <br><br>
             <label for="contact">Phone </label>
-            <input type="tel" name="contact" id="contact" placeholder="+91" maxlength="10" required>
+            <input type="tel" name="contact" id="contact" placeholder="+91" maxlength="10" class="input-field" required>
             <br><br>
             <label for="height">Height </label>
-            <input type="number" name="height" id="height" placeholder="Height in Feet" required>
+            <input type="number" name="height" id="height" placeholder="Height in Feet" class="input-field" required>
         </fieldset>
         <fieldset>
             <legend>Education</legend>
             <label for="school">School Name: </label>
-            <input type="text" name="school" id="school" placeholder="School Name" required>
+            <input type="text" name="school" id="school" placeholder="School Name" class="input-field" required>
             <br><br>
             <label for="class">Class: </label>
-            <input type="text" name="class" id="class" placeholder="Enter Class" required>
+            <input type="text" name="class" id="class" placeholder="Enter Class" class="input-field" required>
             <br><br>
             <label for="stream">Stram: </label>
             <select name="Stream" id="stream" required>
@@ -57,12 +57,5 @@
         </fieldset>
         <input type="submit" id="submit-input" onclick="callAlert();">
     </form>
-    <script>
-        let ele = document.getElementById('firstName');
-        let name = ele.val();
-        function callAlert(){
-            alert(`${name}, Your information is submitted successfully!!`)
-        }
-    </script>
 </body>
 </html>
