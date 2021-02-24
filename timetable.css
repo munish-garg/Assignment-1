@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina&display=swap');
+
+
+h1{
+    font-family: 'Vidaloka', serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+table{
+    transform: translateX(45%);
+    font-family: 'Faustina', serif;
+    border-color: magenta;
+}
+
+body{
+    background: linear-gradient(to right, #89f7fe, #66a6ff);
+}
+
+#upper-heading{
+    background-color: green;
+}
+
+tbody{
+    background-color: yellow;
+    color: navy;
+    font-weight: bold;
+}
+
+#lower-heading{
+    background-color: lightgreen;
+}
+
+td:hover, th:hover{
+    color: red;
+    transform: scale(1.1);
+}
+

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+
+
+body{
+    /* background: linear-gradient(to right, #DA22FF, #9733EE); */
+    /* background: linear-gradient(to right, #cc2b5e, #753a88); */
+    /* background: linear-gradient(to right, #16A085, #F4D03F); */
+    background: linear-gradient(to right, #89f7fe, #66a6ff);
+}
+
+h1{
+    text-align: center;
+    /* font-family: 'Bungee Inline', cursive; */
+    font-family: 'Vidaloka', serif;
+    text-decoration: dashed;
+    color: black;
+}
+
+legend{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+    color: magenta;
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+input{
+    border-radius: 5px;
+}
+
+fieldset input{
+    border: solid 3px red;
+    /* transform: scale(1.1); */
+}
+
+fieldset input:hover{
+    background-color: aqua;
+}
+
+fieldset{
+    border: solid 3px navy;
+}
